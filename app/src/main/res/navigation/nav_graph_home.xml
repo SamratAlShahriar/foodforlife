@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_home"
+    app:startDestination="@id/exploreFragment">
+
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="tws.foodforlife.app.view.fragments.home.ExploreFragment"
+        android:label="fragment_show_all_post"
+        tools:layout="@layout/fragment_explore" >
+        <action
+            android:id="@+id/action_exploreFragment_to_moreFragment"
+            app:destination="@id/moreFragment" />
+        <action
+            android:id="@+id/action_exploreFragment_to_newPostFragment"
+            app:destination="@id/newPostFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/donateToFflFragment"
+        android:name="tws.foodforlife.app.view.fragments.other.DonateToFflFragment"
+        android:label="fragment_donate_to_ffl"
+        tools:layout="@layout/fragment_donate_to_ffl" />
+
+    <fragment
+        android:id="@+id/newPostFragment"
+        android:name="tws.foodforlife.app.view.fragments.home.NewPostFragment"
+        android:label="fragment_new_post"
+        tools:layout="@layout/fragment_new_post" >
+        <action
+            android:id="@+id/action_newPostFragment_to_selectLocationFragment"
+            app:destination="@id/selectLocationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sharePostFragment"
+        android:name="tws.foodforlife.app.view.fragments.post.SharePostFragment"
+        android:label="fragment_share_post"
+        tools:layout="@layout/fragment_share_post">
+        <action
+            android:id="@+id/action_sharePostFragment2_to_postDetailsFragment2"
+            app:destination="@id/postDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/requestPostFragment"
+        android:name="tws.foodforlife.app.view.fragments.post.RequestPostFragment"
+        android:label="fragment_request_post"
+        tools:layout="@layout/fragment_request_post">
+        <action
+            android:id="@+id/action_requestPostFragment2_to_postDetailsFragment2"
+            app:destination="@id/postDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/postDetailsFragment"
+        android:name="tws.foodforlife.app.view.fragments.post.PostDetailsFragment"
+        android:label="fragment_post_details"
+        tools:layout="@layout/fragment_post_details" />
+
+    <action
+        android:id="@+id/action_global_to_post_details"
+        app:destination="@id/postDetailsFragment"
+        app:enterAnim="@anim/slide_in_up"
+        app:popExitAnim="@anim/slide_in_down"
+        />
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="tws.foodforlife.app.view.fragments.home.MoreFragment"
+        android:label="fragment_more"
+        tools:layout="@layout/fragment_more" >
+        <action
+            android:id="@+id/action_moreFragment_to_donateToFflFragment"
+            app:destination="@id/donateToFflFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left"
+            />
+        <action
+            android:id="@+id/action_moreFragment_to_yourActivityFragment"
+            app:destination="@id/yourActivityFragment" />
+        <action
+            android:id="@+id/action_moreFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_moreFragment_to_contactFragment"
+            app:destination="@id/contactFragment" />
+        <action
+            android:id="@+id/action_moreFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_moreFragment_to_profileOrgFragment"
+            app:destination="@id/profileOrgFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/yourActivityFragment"
+        android:name="tws.foodforlife.app.view.fragments.profile.YourActivityFragment"
+        android:label="fragment_your_activity"
+        tools:layout="@layout/fragment_your_activity" >
+        <action
+            android:id="@+id/action_yourActivityFragment_to_postDetailsFragment"
+            app:destination="@id/postDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="tws.foodforlife.app.view.fragments.other.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="tws.foodforlife.app.view.fragments.other.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="tws.foodforlife.app.view.fragments.profile.ProfileDonorFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_donor_profile" />
+    <fragment
+        android:id="@+id/selectLocationFragment"
+        android:name="tws.foodforlife.app.view.fragments.home.SelectLocationFragment"
+        android:label="fragment_select_location"
+        tools:layout="@layout/fragment_select_location" >
+        <action
+            android:id="@+id/action_selectLocationFragment_to_newPostFragment"
+            app:destination="@id/newPostFragment"
+            app:popUpTo="@id/newPostFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/profileOrgFragment"
+        android:name="tws.foodforlife.app.view.fragments.profile.ProfileOrgFragment"
+        android:label="fragment_org_profile"
+        tools:layout="@layout/fragment_org_profile" />
+
+
+</navigation>

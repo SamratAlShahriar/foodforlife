@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_auth"
+    app:startDestination="@id/getStartedFragment">
+
+    <fragment
+        android:id="@+id/getStartedFragment"
+        android:name="tws.foodforlife.app.view.fragments.auth.GetStartedFragment"
+        android:label="fragment_get_started"
+        tools:layout="@layout/fragment_get_started">
+        <action
+            android:id="@+id/action_getStartedFragment_to_loginEmailFragment"
+            app:destination="@id/loginEmailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginEmailFragment"
+        android:name="tws.foodforlife.app.view.fragments.auth.LoginEmailFragment"
+        android:label="fragment_login_email"
+        tools:layout="@layout/fragment_login_email">
+        <action
+            android:id="@+id/action_loginEmailFragment_to_loginPasswordFragment"
+            app:destination="@id/loginPasswordFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_loginEmailFragment_to_signupNoAccFragment"
+            app:destination="@id/signupNoAccFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <argument
+            android:name="email"
+            android:defaultValue=""
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginPasswordFragment"
+        android:name="tws.foodforlife.app.view.fragments.auth.LoginPasswordFragment"
+        android:label="fragment_login_password"
+        tools:layout="@layout/fragment_login_password">
+        <action
+            android:id="@+id/action_loginPasswordFragment_to_userInfoFirstTimeFragment"
+            app:destination="@id/userInfoFirstTimeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_loginPasswordFragment_to_emailNotVerifiedFragment"
+            app:destination="@id/emailNotVerifiedFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <argument
+            android:name="email"
+            android:defaultValue=""
+            app:argType="string" />
+        <action
+            android:id="@+id/action_loginPasswordFragment_to_orgInfoFirstTimeFragment"
+            app:destination="@id/orgInfoFirstTimeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/signupNoAccFragment"
+        android:name="tws.foodforlife.app.view.fragments.auth.SignupNoAccFragment"
+        android:label="fragment_signup_no_acc"
+        tools:layout="@layout/fragment_signup_no_acc">
+        <action
+            android:id="@+id/action_signupNoAccFragment_to_signupInfoFragment"
+            app:destination="@id/signupInfoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <argument
+            android:name="email"
+            android:defaultValue=""
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupInfoFragment"
+        android:name="tws.foodforlife.app.view.fragments.auth.SignupInfoFragment"
+        android:label="fragment_signup_info"
+        tools:layout="@layout/fragment_signup_info">
+        <action
+            android:id="@+id/action_signupInfoFragment_to_signupVerificationFragment"
+            app:destination="@id/signupVerificationFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <argument
+            android:name="email"
+            android:defaultValue=""
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupVerificationFragment"
+        android:name="tws.foodforlife.app.view.fragments.auth.SignupVerificationFragment"
+        android:label="fragment_signup_verification"
+        tools:layout="@layout/fragment_signup_verification">
+        <action
+            android:id="@+id/action_signupVerificationFragment_to_loginEmailFragment"
+            app:destination="@id/loginEmailFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left"/>
+        <argument
+            android:name="email"
+            android:defaultValue=""
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/emailNotVerifiedFragment"
+        android:name="tws.foodforlife.app.view.fragments.auth.EmailNotVerifiedFragment"
+        android:label="fragment_email_not_verified"
+        tools:layout="@layout/fragment_email_not_verified">
+        <argument
+            android:name="email"
+            android:defaultValue=""
+            app:argType="string" />
+        <action
+            android:id="@+id/action_emailNotVerifiedFragment_to_signupVerificationFragment"
+            app:destination="@id/signupVerificationFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/userInfoFirstTimeFragment"
+        android:name="tws.foodforlife.app.view.fragments.auth.UserInfoFirstTimeFragment"
+        android:label="fragment_user_info_first_time"
+        tools:layout="@layout/fragment_user_info_first_time" />
+    <fragment
+        android:id="@+id/orgInfoFirstTimeFragment"
+        android:name="tws.foodforlife.app.view.fragments.auth.OrgInfoFirstTimeFragment"
+        android:label="fragment_org_info_first_time"
+        tools:layout="@layout/fragment_org_info_first_time" />
+</navigation>

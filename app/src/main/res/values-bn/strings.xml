@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FoodForLife</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="food_for_life">Food For Life</string>
+
+    <string name="email">ইমেইল</string>
+    <string name="next">পরবর্তী</string>
+    <string name="forgot_password">পাসওয়ার্ড ভুলে গেছেন?</string>
+
+
+    <string name="donate_food_spread_humanity">Donate Food, Spread Humanity</string>
+    <string name="share_food">খাদ্য ভাগ করুন</string>
+    <string name="spread_humanity">মনুষ্যত্যের জাগরণ</string>
+    <string name="share_food_spread_humanity">Share Food, Spread Humanity</string>
+
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <string name="organizer">সংস্থা</string>
+    <string name="donor">দাতা</string>
+    <string name="profile">প্রোফাইল</string>
+    <string name="your_activity">আপনার কার্যক্রম</string>
+    <string name="settings">সেটিংস</string>
+    <string name="about">সম্পর্কে</string>
+    <string name="contact">যোগাযোগ</string>
+    <string name="donate_to_up">আপগ্রেড করতে সহায়তা করুন</string>
+    <string name="logout">লগ আউট</string>
+    <string name="version">ভার্সন</string>
+    <string name="version_no">১.০ (বেটা)</string>
+
+    <string name="author">ডেভেলপার</string>
+    <string name="team">টিম</string>
+    <string name="samratalshahriar">সম্রাট আল শাহরিয়ার</string>
+    <string name="thewhiteshadow">দ্যা হোয়াইট স্যাডো</string>
+    <string name="diu">ড্যাফোডিল ইন্টারন্যাশনাল ইউনিভার্সিটি</string>
+    <string name="bangladesh">বাংলাদেশ</string>
+    <string name="ffl_link">https://sites.google.com/diu.edu.bd/foodforlife</string>
+
+    <string name="logo">Logo</string>
+
+    <string name="confirmation">নিশ্চায়ন</string>
+    <string name="are_you_sure">আপনি কি নিশ্চিত?</string>
+    <string name="confirm">নিশ্চিত</string>
+    <string name="cancel">বাতিল</string>
+
+    <string name="confirm_location">লোকেশন নিশ্চিত</string>
+    <string name="search_location">লোকেশন খুজুন</string>
+
+    <string name="call">কল</string>
+    <string name="comment">মন্তব্য</string>
+
+    <string name="share">শেয়ার</string>
+    <string name="request">অনুরোধ</string>
+
+    <string name="activity">অ্যাক্টিভিটি</string>
+
+    <string name="distributed">বিতরন করা হয়েছে</string>
+    <string name="shared">শেয়ার করা হয়েছে</string>
+    <string name="rating">রেটিং</string>
+
+    <string name="mark_as_donated">ডোনেট হিসেবে চিহ্নিত করুন</string>
+    <string name="mark_as_distributed">বিতরন হিসেবে চিহ্নিত করুন</string>
+
+    <string name="show_response">প্রতিক্রিয়া দেখুন</string>
+    <string name="response">প্রতিক্রিয়া</string>
+
+    <string name="feedback">প্রতিক্রিয়া</string>
+    <string name="give_your_feedback">আপনার গুরুত্বপূর্ন মন্ত্বব্য দিন</string>
+    <string name="send">পাঠান</string>
+    <string name="fflemail">foodforlife.tws@gmail.com</string>
+
+    <string name="get_started">শুরু করুন</string>
+    <string name="select_lang">ভাষা নির্বাচন</string>
+    <string name="en">EN</string>
+    <string name="bangla">বাংলা</string>
+    <string name="english">English</string>
+
+    <string name="share_post">শেয়ার পোস্ট</string>
+    <string name="request_post">রিকুয়েস্ট পোস্ট</string>
+    <string name="write_donation_info">আপনার দানের তথ্য দিন...</string>
+    <string name="food_location">খাবার লোকেশন</string>
+    <string name="location">লোকেশন</string>
+    <string name="change_contact_number">নাম্বার পরিবর্তন করুন</string>
+    <string name="enter_contact_number">নাম্বার প্রদান করুন</string>
+    <string name="progress">Progress</string>
+    <string name="percent_completed">percent completed</string>
+
+    <string name="login">লগিন</string>
+    <string name="signup">সাইন আপ</string>
+    <string name="or">অথবা</string>
+    <string name="have_no_acc">পূর্ব অ্যাকাউন্ট নেই?</string>
+    <string name="full_name">পূর্ন নাম</string>
+    <string name="not_a_person">আপনার কি সংস্থা আছে?</string>
+    <string name="signup_as_organization">সংস্থা হিসবে যুক্ত হোন</string>
+    <string name="accept">গ্রহন</string>
+    <string name="tnc">terms and conditions</string>
+    <string name="org_name">সংস্থা নাম</string>
+    <string name="not_a_org">সংস্থা নয়?</string>
+    <string name="signup_as_person">Signup as Person</string>
+    <string name="phone">মোবাইল</string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="rep_password">পুনরায় পাসওয়ার্ড</string>
+    <string name="need_help">সাহায্য প্রয়োজন?</string>
+
+    <string name="hi">স্বাগতম</string>
+    <string name="you_are_first"> আপনি এখানে নতুন.<br /> এগিয়ে যেতে আপনার প্রোফাইল<br />সম্পুর্ন করুন</string>
+
+
+    <string name="your_name">আপনার নাম</string>
+    <string name="mobile_no">মোবাইল নং</string>
+    <string name="date_of_birth">জন্মতারিখ</string>
+    <string name="address">ঠিকানা</string>
+    <string name="save">সংরক্ষন করুন</string>
+    <string name="update">পরিবর্তন</string>
+    <string name="org_reg_no">সংস্থা রেজিঃ নং</string>
+
+    <string name="dummy_text">This is dummy text for you. Dummy text represent no value indeed. It represent some null value or looklike a vulue that not actually a value but still it has a value which is no value. Confussing right? Then go for it. How should we go for it. foo bar is one of the google most prestigious calture to capture new developer to their team. If anyone really hopeful to join their team. They should really try for it. I wish all the very best for them who are doing really hard work.</string>
+
+
+    <string-array name="payment_methods">
+        <item>বিকাশ</item>
+        <item>নগদ</item>
+        <item>রকেট</item>
+    </string-array>
+
+
+    <string name="about_ffl">Food For Life is a great app in deed </string>
+</resources>

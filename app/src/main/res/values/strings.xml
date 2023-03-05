@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">FoodForLife</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="food_for_life">Food For Life</string>
+
+    <string name="email">Email</string>
+    <string name="next">Next</string>
+    <string name="forgot_password">Forgot Password?</string>
+
+
+
+    <string name="donate_food_spread_humanity">Donate Food, Spread Humanity</string>
+    <string name="share_food">Share Food</string>
+    <string name="spread_humanity">Spread Humanity</string>
+    <string name="share_food_spread_humanity">Share Food, Spread Humanity</string>
+
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <string name="organizer">Organizer</string>
+    <string name="donor">Donor</string>
+    <string name="profile">Profile</string>
+    <string name="your_activity">Your Activity</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="contact">Contact</string>
+    <string name="donate_to_up">Donate to upgrade community</string>
+    <string name="logout">Logout</string>
+    <string name="version">Version</string>
+    <string name="version_no">1.0 (beta)</string>
+
+    <string name="author">Author</string>
+    <string name="team">Team</string>
+    <string name="samratalshahriar">Samrat Al Shahriar</string>
+    <string name="thewhiteshadow">The White Shadow</string>
+    <string name="diu">Daffodil International University</string>
+    <string name="bangladesh">Bangladesh</string>
+    <string name="ffl_link">https://sites.google.com/diu.edu.bd/foodforlife</string>
+
+    <string name="logo">Logo</string>
+
+    <string name="confirmation">Confirmation</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="confirm_location">Confirm Location</string>
+    <string name="search_location">Search Location</string>
+
+    <string name="call">Call</string>
+    <string name="comment">Comment</string>
+
+    <string name="share">Share</string>
+    <string name="request">Request</string>
+
+    <string name="activity">Activity</string>
+
+    <string name="distributed">Distributed</string>
+    <string name="shared">Shared</string>
+    <string name="rating">Rating</string>
+
+    <string name="mark_as_donated">Mark as donated</string>
+    <string name="mark_as_distributed">Mark as distributed</string>
+
+    <string name="show_response">Show Response</string>
+    <string name="response">Response</string>
+
+    <string name="feedback">Feedback</string>
+    <string name="give_your_feedback">Give your valuable feedback...</string>
+    <string name="send">Send</string>
+    <string name="fflemail">foodforlife.tws@gmail.com</string>
+
+    <string name="get_started">Get Started</string>
+    <string name="select_lang">Select Language</string>
+    <string name="en">EN</string>
+    <string name="bangla">বাংলা</string>
+    <string name="english">English</string>
+
+    <string name="share_post">Share Post</string>
+    <string name="request_post">Request Post</string>
+    <string name="write_donation_info">Write your donation info...</string>
+    <string name="food_location">Food Location</string>
+    <string name="location">Location</string>
+    <string name="change_contact_number">Change contact number</string>
+    <string name="enter_contact_number">Enter contact number</string>
+    <string name="progress">Progress</string>
+    <string name="percent_completed">percent completed</string>
+
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="or">OR</string>
+    <string name="have_no_acc">Don\'t Have an Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="not_a_person">Do you run an organization?</string>
+    <string name="signup_as_organization">signup as organization</string>
+    <string name="accept">accept</string>
+    <string name="tnc">terms and conditions</string>
+    <string name="org_name">Organization Name</string>
+    <string name="not_a_org">Not an organization?</string>
+    <string name="signup_as_person">Signup as Person</string>
+    <string name="phone">Phone No.</string>
+    <string name="password">Password</string>
+    <string name="rep_password">Repeat Password</string>
+    <string name="need_help">Need Help?</string>
+
+    <string name="hi">Hi</string>
+    <string name="you_are_first">You are here for the first time.<br />Complete your profile to <br />continue</string>
+
+
+    <string name="your_name">Your Name</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="address">Address</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="org_reg_no">Organization Reg. No.</string>
+
+    <string name="dummy_text">This is dummy text for you. Dummy text represent no value indeed. It represent some null value or looklike a vulue that not actually a value but still it has a value which is no value. Confussing right? Then go for it. How should we go for it. foo bar is one of the google most prestigious calture to capture new developer to their team. If anyone really hopeful to join their team. They should really try for it. I wish all the very best for them who are doing really hard work.</string>
+
+
+    <string-array name="payment_methods">
+        <item>bKash</item>
+        <item>Nagad</item>
+        <item>Rocket</item>
+    </string-array>
+
+
+    <string name="about_ffl">Food For Life is a great app in deed </string>
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:andrdoid="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragments.other.DonateToFflFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/colorPrimary"
+
+            andrdoid:layout_constraintEnd_toEndOf="parent"
+            andrdoid:layout_constraintStart_toStartOf="parent"
+            andrdoid:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_back"
+                android:contentDescription="@string/app_name"
+                andrdoid:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Donation"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:paddingStart="10dp"
+                android:textColor="@color/white"/>
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Donate to FOOD FOR LIFE"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            andrdoid:layout_constraintEnd_toEndOf="parent"
+            andrdoid:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="bKash\t\t01735861768"
+            android:textColor="@color/accent_color"
+            android:textSize="20sp"
+            andrdoid:layout_constraintEnd_toEndOf="parent"
+            andrdoid:layout_constraintStart_toStartOf="parent"
+            andrdoid:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nagad\t\t01735861768"
+            android:textColor="@color/accent_color"
+            android:textSize="20sp"
+            andrdoid:layout_constraintStart_toStartOf="@+id/textView2"
+            andrdoid:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Rocket\t\t01735861768-9"
+            android:textColor="@color/accent_color"
+            android:textSize="20sp"
+            andrdoid:layout_constraintStart_toStartOf="@+id/textView3"
+            andrdoid:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            andrdoid:layout_constraintEnd_toEndOf="parent"
+            andrdoid:layout_constraintStart_toStartOf="parent"
+            andrdoid:layout_constraintTop_toBottomOf="@+id/textView4">
+
+            <Spinner
+                android:id="@+id/fdtffl_sp_payment_method"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:spinnerMode="dropdown"
+                android:background="@drawable/shape_rectangle_stroke"
+                android:entries="@array/payment_methods"
+                andrdoid:layout_constraintEnd_toEndOf="parent"
+                andrdoid:layout_constraintStart_toStartOf="parent"
+                andrdoid:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_rectangle_stroke"
+                android:hint="Transaction ID"
+                android:inputType="text"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                andrdoid:layout_constraintEnd_toEndOf="parent"
+                andrdoid:layout_constraintStart_toStartOf="parent"
+                andrdoid:layout_constraintTop_toBottomOf="@id/fdtffl_sp_payment_method" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_rectangle_stroke"
+                android:hint="Amount"
+                android:inputType="numberDecimal"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                andrdoid:layout_constraintEnd_toEndOf="parent"
+                andrdoid:layout_constraintStart_toStartOf="parent"
+                andrdoid:layout_constraintTop_toBottomOf="@+id/editText" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_rectangle_stroke"
+                android:gravity="start"
+                android:hint="Note"
+                android:inputType="textMultiLine"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                andrdoid:layout_constraintEnd_toEndOf="parent"
+                andrdoid:layout_constraintStart_toStartOf="parent"
+                andrdoid:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+            <Button
+                android:id="@+id/fle_btn_next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_rectangle_solid"
+                android:backgroundTint="@color/colorPrimary"
+                android:fontFamily="@font/roboto_bold"
+                android:padding="12dp"
+                android:text="Donate"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"
+                andrdoid:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

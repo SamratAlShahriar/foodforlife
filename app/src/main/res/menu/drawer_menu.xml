@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:title="Profile">
+        <item android:title="Profile"></item>
+
+        <item android:title="Your Activity"></item>
+    </group>
+
+    <item android:title="Settings"></item>
+
+
+    <group android:title="Communication">
+        <item android:title="Contact"></item>
+
+        <item android:title="About"></item>
+    </group>
+
+
+
+    <item android:title="Logout"></item>
+
+
+</menu>
